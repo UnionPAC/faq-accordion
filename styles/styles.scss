@@ -132,6 +132,15 @@ body {
     }
   }
 
+  .first-question {
+    .plus-icon {
+      display: none;
+    }
+    .minus-icon {
+      display: block;
+    }
+  }
+
   .answer {
     align-self: stretch;
     color: $pale-purple;
@@ -149,8 +158,6 @@ body {
     }
   }
 }
-
-
 
 /* Media Queries */
 

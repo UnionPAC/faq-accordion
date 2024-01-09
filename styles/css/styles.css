@@ -113,6 +113,12 @@ body {
 .accordion-item .question .minus-icon {
   display: none;
 }
+.accordion-item .first-question .plus-icon {
+  display: none;
+}
+.accordion-item .first-question .minus-icon {
+  display: block;
+}
 .accordion-item .answer {
   align-self: stretch;
   color: hsl(292, 16%, 49%);
